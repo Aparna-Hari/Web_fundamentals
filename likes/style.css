@@ -1,0 +1,66 @@
+.container{
+border: 2px solid black;
+}
+
+
+.header{
+    background-color: black;
+    color:white;
+    width:80%;
+    margin-left: 40px;
+    padding:20px 0px 20px 40px;
+    height:50px;
+}
+
+.leftColumn{
+    border: 2px solid black;
+    margin-right: 50px;
+    padding:30px;
+    height:100px;
+    margin-top:70px;
+}
+
+
+.rightColumn{
+    /* border: 2px solid black; */
+    
+}
+
+
+.main{
+    display:flex;
+    padding:40px;
+}
+
+.btn{
+    background-color: yellow;
+    color:black;
+    border:2px solid black;
+    box-shadow: 5px 5px black;
+    margin-top: 20px;
+}
+
+.name1{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+
+.name2{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+
+.name3{
+    display:flex;
+    justify-content: space-around;
+    
+}
+
+.box1{
+    border:2px solid black;
+    margin-bottom: 50px;
+}
