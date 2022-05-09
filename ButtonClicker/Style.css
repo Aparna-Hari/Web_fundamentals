@@ -1,0 +1,82 @@
+
+.container{
+    outline: 2px solid black;
+}
+
+
+.header{
+    display:flex;
+    background-color:lightgray;
+    justify-content: space-around;
+    margin:0px 20px 0px 20px;
+}
+
+.searchBtn{
+    width:250px;
+    height:30px;
+    margin-top: 30px;
+}
+
+
+
+.loginBtn{
+height:30px;
+width:100px;
+background-color: blue;
+color: white;
+box-shadow: 10px 10px black;
+margin-top: 30px;
+}
+
+.main{
+    padding:10%;
+    
+    display: flex;
+}
+
+.leftColumn{
+    padding:5px;
+}    
+
+.ninja1{
+    padding:10px;
+    display: flex;
+    outline: 2px solid black;
+}
+
+#noun{
+    font-weight:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.likeBtn{
+    background-color:yellow;
+    box-shadow: 2px 2px black ;
+}
+
+.text{
+    font-weight: bold;
+    margin:20px 20px 20px 40px;
+}
+
+.ninja2{
+    padding:10px;
+    display: flex;
+    outline: 2px solid black;
+    margin-top: 30px;
+}
+
+.rightColumn{
+    outline: 2px solid black;
+    margin-left: 10%;
+    padding:30px 30px 0px 30px;
+    height: 150px;
+}
+
+
+.definition{
+    background-color:olive;
+    box-shadow: 2px 2px black ;
+    border: 2px solid black;
+}
