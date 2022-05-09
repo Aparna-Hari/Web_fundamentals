@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <p>
+        <label for="fname">First Name :* </label>
+        <input type = "text"  id ="fname" name = "fname"><br>
+        </p>
+
+        <p>
+        <label for="lname">Last Name :* </label>
+        <input type = "text"  id ="lname" name = "lname" ><br>
+        </p>    
+
+        <p>
+        <label for="email">Email Address :* </label>
+        <input type = "email"  id ="email" name = "email" ><br>
+        </p>
+
+        <p>
+        <label for="pwd">Password :* </label>
+        <input type = "password"  id ="pwd" name = "pwd" ><br>
+        </p>
+
+        <p>
+        <label for="confirmpwd">Confirm Password :* </label>
+        <input type = "password"  id ="confirmpwd" name = "confirm pwd" ><br>
+        </p>
+
+        <p>
+        <label for="bday">Birthday :* </label>
+        <input type = "date"  id ="bday" name = "bday" ><br>
+        </p>
+
+        <label>Gender Identity :* </label><br>
+        <input type="radio"  name = "identity" value = "male" >Male
+        <input type="radio"   name = "identity" value = "female" >Female
+        <input type="radio"   name = "identity" value = "female" >Non-binary
+        <input type="radio"   name = "identity" value = "female" >I prefer Not to answer<br>
+        
+        <p>A short description about myself:<br>
+        <textarea name = "comment" cols="30" rows="3"> </textarea>
+        </p>
+
+        <p>
+        <label for="favlang">Favorite Language :* </label>
+        <select name = "language" id="favlang">
+        <option>Javascript</option>
+        <option>C#</option>
+        <option>python</option>
+        </select><br>
+        </p>
+
+        <input type="checkbox" name="updates">Yes,I would like to recive periodic email updates.<br>
+
+
+        <p><input type="submit" name ="account" value="Create Account"> <br></p>
+
+    </form> 
+</body>
+</html>
