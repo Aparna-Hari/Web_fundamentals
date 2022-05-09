@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+/* NavBar */
+
+.navBar{
+    background-color:  #343a40;
+    display: flex;
+    font-family: Roboto;
+    margin-bottom: 20px;
+
+
+}
+
+.nav-title{
+    color: white;
+    width:50%;
+    margin:20px;
+
+}
+
+.nav-links {
+    list-style: none;
+    display:flex;
+    flex: 2;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-bottom: 10px;
+
+}
+
+.btn{
+    background-color:skyblue ;
+    color: white;
+    box-shadow: 3px 3px 2px 2px black;
+    border: 1px solid black;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+    /* justify-content: space-evenly; */
+}
+
+li [href]{
+    color: white;
+    text-decoration: none;
+    margin-right:20px;
+}
+
+/* Left column */
+
+.leftColumn {
+
+    /* display:flex; */
+    /* margin:40px; */
+    margin-left: 50px;
+    /* width:40%; */
+    padding:50px;
+}
+
+/*usercard*/
+
+/* .container {
+    padding: 5% 25%;
+    width:auto;
+    height:auto;
+    outline:2px solid black;
+    margin: 60px 100px 60px 100px;
+    
+} */
+
+/* .card {
+    background-color: white;
+    border: 2px solid gray;
+    position:relative;
+} */
+
+.Header {
+    background-color: teal;
+    height:100px;
+    /* margin-bottom: 600px; */
+}
+
+.circle {
+/* background-color: white; 
+ color:black; */
+    height:100px;
+    width:100px;
+    margin:30px;
+    border-radius: 50%;
+}
+
+
+.content {
+    background-color: white;
+    border: 2px solid gray;
+    height:150px;
+    padding:20px;
+    font-weight: bold;
+}
+
+.marker {
+    height:14px;
+    /* padding-bottom: 10px; */
+}
+
+.gear{
+    height:20px;
+    margin-top: 10px;
+}
+
+/* Education */
+
+.education{
+    
+    margin-top: 30px;
+    border: 2px solid gray;
+
+}
+
+.header1{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px 10px 20px;
+}
+
+.body{
+    padding :20px 20px 0px 20px;
+}
+
+/* Right Column */
+
+.rightColumn{
+    padding-top: 10px;
+    /* vertical-align: top; */
+}
+
+
+
+.header2 {
+    background-color: black;
+    color: white;
+    /* font-weight: bolder; */
+    padding:20px;
+    display:flex;
+}
+
+.connections{
+    border:2px solid gray;
+    margin:40px;
+}
+
+.decisionCircles{
+    margin-left: 25px;
+}
+
+.content2{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button1{
+    height:25px;
+    width:25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.button2{
+    /* height:25px;
+    width:25px; */
+    background-color: #bbb;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#align{
+    margin-bottom: 10px;
+}
+
+#alignTop{
+    margin-top: 10px;
+}
+
+#align1 {
+    vertical-align: text-top;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+
+#align2 {
+    vertical-align:text-top;
+    /* margin-left: 10px; */
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.content2 span{
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.tab{
+    border-top:2px solid gray;
+    padding:10px
+}
+
