@@ -1,0 +1,43 @@
+.nav{
+    background-color:  #343a40;
+    display: flex;
+    width:900px;
+    font-family: Roboto;
+    
+}
+
+.nav-title{
+color: white;
+width:50%;
+margin:20px;
+
+}
+
+.nav-links {
+list-style: none;
+display:flex;
+/* color:white ; */
+justify-content: space-evenly;
+align-items: flex-end;
+
+}
+
+.btn{
+    background-color:skyblue ;
+    color: white;
+    box-shadow: 3px 3px 2px 2px black;
+    border: 1px solid black;
+}
+
+.active {
+    color: white;
+    text-decoration: none;
+    /* justify-content: space-evenly; */
+}
+
+li [href]{
+    color: white;
+    text-decoration: none;
+    margin-right:20px;
+}
+
