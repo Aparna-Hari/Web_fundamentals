@@ -1,0 +1,33 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px;
+    padding: 20px;
+}
+
+.row1 {
+background-color: skyblue;
+display:flex;
+margin:10px;
+justify-content:space-around;
+margin-bottom: 20px;
+
+}
+
+.row2 {
+
+background-color: pink;
+display:flex;
+margin:10px;
+justify-content:space-around;
+margin-bottom: 20px;
+}
+
+
+.row3 {
+
+background-color: white;
+display:flex;
+margin:10px;
+justify-content:space-around;
+}
