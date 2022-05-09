@@ -1,0 +1,17 @@
+h2 {
+    color:white;
+    font-style:italic ;
+    background-color:purple ;
+    text-align: center;
+}
+
+h3 {
+    background-color: lightskyblue;
+    text-align: right;
+}
+
+h1 {
+    background-color: black;
+    text-align: left;
+    color: white;
+}
